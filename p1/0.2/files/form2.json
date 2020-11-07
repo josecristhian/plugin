@@ -1,0 +1,301 @@
+{
+    "_id": "5eee5da9b04c12001ac7d405",
+    "type": "form",
+    "tags": [],
+    "owner": "5cca505179bfb500601aff21",
+    "components": [
+        {
+            "label": "Comentarios",
+            "placeholder": "Mis comentarios...",
+            "autoExpand": true,
+            "tableView": true,
+            "validate": {
+                "required": true,
+                "customMessage": "Debes ingresar tus comentarios para cerrar la tarea.",
+                "custom": "",
+                "customPrivate": false,
+                "strictDateValidation": false,
+                "multiple": false,
+                "unique": false,
+                "minLength": "",
+                "maxLength": "",
+                "pattern": "",
+                "minWords": "",
+                "maxWords": ""
+            },
+            "key": "comentarios2",
+            "type": "textarea",
+            "input": true,
+            "prefix": "",
+            "customClass": "",
+            "suffix": "",
+            "multiple": false,
+            "defaultValue": null,
+            "protected": false,
+            "unique": false,
+            "persistent": true,
+            "hidden": false,
+            "clearOnHide": true,
+            "refreshOn": "",
+            "redrawOn": "",
+            "modalEdit": false,
+            "labelPosition": "top",
+            "description": "",
+            "errorLabel": "",
+            "tooltip": "",
+            "hideLabel": false,
+            "tabindex": "",
+            "disabled": false,
+            "autofocus": false,
+            "dbIndex": false,
+            "customDefaultValue": "",
+            "calculateValue": "",
+            "calculateServer": false,
+            "widget": {
+                "type": "input"
+            },
+            "attributes": {},
+            "validateOn": "change",
+            "conditional": {
+                "show": null,
+                "when": null,
+                "eq": ""
+            },
+            "overlay": {
+                "style": "",
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            },
+            "allowCalculateOverride": false,
+            "encrypted": false,
+            "showCharCount": false,
+            "showWordCount": false,
+            "properties": {},
+            "allowMultipleMasks": false,
+            "mask": false,
+            "inputType": "text",
+            "inputFormat": "html",
+            "inputMask": "",
+            "spellcheck": true,
+            "rows": 3,
+            "wysiwyg": false,
+            "editor": "",
+            "fixedSize": true,
+            "id": "e3mzgap"
+        },
+        {
+            "label": "Ratonera",
+            "tableView": true,
+            "key": "ratonera",
+            "type": "textfield",
+            "input": true,
+            "defaultValue": "${kokito}",
+            "placeholder": "",
+            "prefix": "",
+            "customClass": "",
+            "suffix": "",
+            "multiple": false,
+            "protected": false,
+            "unique": false,
+            "persistent": true,
+            "hidden": false,
+            "clearOnHide": true,
+            "refreshOn": "",
+            "redrawOn": "",
+            "modalEdit": false,
+            "labelPosition": "top",
+            "description": "",
+            "errorLabel": "",
+            "tooltip": "",
+            "hideLabel": false,
+            "tabindex": "",
+            "disabled": false,
+            "autofocus": false,
+            "dbIndex": false,
+            "customDefaultValue": "",
+            "calculateValue": "",
+            "calculateServer": false,
+            "widget": {
+                "type": "input"
+            },
+            "attributes": {},
+            "validateOn": "change",
+            "validate": {
+                "required": false,
+                "custom": "",
+                "customPrivate": false,
+                "strictDateValidation": false,
+                "multiple": false,
+                "unique": false,
+                "minLength": "",
+                "maxLength": "",
+                "pattern": ""
+            },
+            "conditional": {
+                "show": null,
+                "when": null,
+                "eq": ""
+            },
+            "overlay": {
+                "style": "",
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            },
+            "allowCalculateOverride": false,
+            "encrypted": false,
+            "showCharCount": false,
+            "showWordCount": false,
+            "properties": {},
+            "allowMultipleMasks": false,
+            "mask": false,
+            "inputType": "text",
+            "inputFormat": "plain",
+            "inputMask": "",
+            "spellcheck": true,
+            "id": "eeiuqf"
+        },
+        {
+            "label": "Respuesta de la Tarea",
+            "optionsLabelPosition": "right",
+            "inline": true,
+            "hideLabel": true,
+            "tableView": false,
+            "values": [
+                {
+                    "label": "Aprobado",
+                    "value": "Aprobado",
+                    "shortcut": ""
+                },
+                {
+                    "label": "Rechazado",
+                    "value": "Rechazado",
+                    "shortcut": ""
+                }
+            ],
+            "validate": {
+                "required": true,
+                "custom": "",
+                "customPrivate": false,
+                "strictDateValidation": false,
+                "multiple": false,
+                "unique": false
+            },
+            "errorLabel": "Debe seleccionar una respuesta para la tarea",
+            "key": "respuesta2",
+            "tags": [
+                "rptatarea"
+            ],
+            "type": "radio",
+            "input": true,
+            "hideOnChildrenHidden": false,
+            "width": 12,
+            "placeholder": "",
+            "prefix": "",
+            "customClass": "",
+            "suffix": "",
+            "multiple": false,
+            "defaultValue": null,
+            "protected": false,
+            "unique": false,
+            "persistent": true,
+            "hidden": false,
+            "clearOnHide": true,
+            "refreshOn": "",
+            "redrawOn": "",
+            "modalEdit": false,
+            "labelPosition": "top",
+            "description": "",
+            "tooltip": "",
+            "tabindex": "",
+            "disabled": false,
+            "autofocus": false,
+            "dbIndex": false,
+            "customDefaultValue": "",
+            "calculateValue": "",
+            "calculateServer": false,
+            "widget": null,
+            "attributes": {},
+            "validateOn": "change",
+            "conditional": {
+                "show": null,
+                "when": null,
+                "eq": ""
+            },
+            "overlay": {
+                "style": "",
+                "left": "",
+                "top": "",
+                "width": "",
+                "height": ""
+            },
+            "allowCalculateOverride": false,
+            "encrypted": false,
+            "showCharCount": false,
+            "showWordCount": false,
+            "properties": {},
+            "allowMultipleMasks": false,
+            "inputType": "radio",
+            "fieldSet": false,
+            "id": "edd5j4p"
+        }
+    ],
+    "title": "Formulario de Tarea - meinvento2",
+    "display": "form",
+    "name": "meinvento2",
+    "path": "meinvento2",
+    "access": [
+        {
+            "roles": [
+                "5c891f87426e1d000899bbbd",
+                "5c891f87426e1d000899bbbe",
+                "5c891f87426e1d000899bbbf",
+                "5cc32dbe0d6a6e9010b4e80b",
+                "5cda1a3e53a23b0019b375d2",
+                "5e133f207f9d990c46984703",
+                "5e133f4a7f9d990c46984705"
+            ],
+            "type": "read_all"
+        }
+    ],
+    "submissionAccess": [
+        {
+            "roles": [],
+            "type": "read_all"
+        },
+        {
+            "roles": [],
+            "type": "update_all"
+        },
+        {
+            "roles": [],
+            "type": "delete_all"
+        },
+        {
+            "roles": [
+                "5c891f87426e1d000899bbbe"
+            ],
+            "type": "create_own"
+        },
+        {
+            "roles": [
+                "5c891f87426e1d000899bbbe"
+            ],
+            "type": "read_own"
+        },
+        {
+            "roles": [],
+            "type": "update_own"
+        },
+        {
+            "roles": [],
+            "type": "delete_own"
+        }
+    ],
+    "created": "2020-06-20T19:04:09.945Z",
+    "modified": "2020-08-04T23:52:03.383Z",
+    "machineName": "5eed35beb04c12001ac7d3861592679832014"
+}
