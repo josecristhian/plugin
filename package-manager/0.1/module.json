@@ -1,0 +1,124 @@
+{
+    "id": "package-manager",
+    "name": "Gestión de Paquetes",
+    "version": "0.1",
+    "description": "Gestiona los paquetes en la plataforma",
+    "onlyvalidate": true,
+    "modules": {
+        "roles": [
+            {
+                "validate": true,
+                "execute": true,
+                "action": "create-reuse",
+                "data": {
+                    "name": "Marketing",
+                    "description": "Rol de pruebas"
+                }
+            },
+            {
+                "validate": true,
+                "execute": true,
+                "action": "create-reuse",
+                "data": {
+                    "name": "Contabilidad",
+                    "description": "Rol de Testing"
+                }
+            } 
+        ],
+        "processCategories": [
+            {
+                "validate": true,
+                "execute": true,
+                "action": "create-reuse",
+                "data": {
+                    "nombre": "Finanzas",
+                    "icono": "fa-firefox",
+                    "descripcion": "Categoría para probar procesos de la plataforma"
+                }
+            }
+        ],
+        "processes": [
+            {
+                "validate": true,
+                "execute": true,
+                "action": "create-reuse",
+                "data": {
+                    "nombre": "Proceso desde paquete",
+                    "categoria": "Finanzas",
+                    "descripcion": "Pruebas de subprocesos y reglas de negocio",
+                    "habilitado": true,
+                    "xml": "files/process1.bpmn",
+                    "roles": [
+                        { "rol": "Administrator" },
+                        { "rol": "~Todos los Usuarios" }
+                    ],
+                    "variables": [
+                        { "variableName": "xxx", "value": "hola" },
+                        { "variableName": "yyy", "value": "chau" }
+                    ]
+                }
+            }
+        ],
+        "processForms": [
+            {
+                "validate": true,
+                "execute": true,
+                "action": "create",
+                "data": {
+                    "tipo": "Inicio",
+                    "name": "meinvento1111",
+                    "form": "files/form1.json",
+                    "proceso": "Proceso desde paquete"
+                }
+            },
+            {
+                "validate": true,
+                "execute": true,
+                "action": "create",
+                "data": {
+                    "tipo": "Tarea",
+                    "name": "meinvento3333",
+                    "form": "files/form2.json",
+                    "proceso": "Proceso desde paquete"
+                }
+            }
+        ],
+        "entities": [
+            {
+                "validate": true,
+                "execute": true,
+                "action": "create-reuse",
+                "data": {
+                    "name": "meinventoentidad1",
+                    "entity": "files/entity1.json"
+                }
+            }
+        ],
+        "formAcces": [
+            {
+                "validate": true,
+                "execute": true,
+                "action": "update",
+                "formName": "meinvento1",
+                "data": [
+                    { "type": "readall", "roles": [ { "rolName": "~Todos los Usuarios" }, { "rolName": "Colaborador" } ] },
+                    { "type": "updateall", "roles": [ { "rolName": "Marketing" } ] },
+                    { "type": "createown", "roles": [ { "rolName": "~Todos los Usuarios" } ] },
+                    { "type": "readown", "roles": [ { "rolName": "~Todos los Usuarios" } ] }
+                ]
+            },
+            {
+                "validate": true,
+                "execute": true,
+                "action": "update",
+                "formName": "5eed35beb04c12001ac7d3861603733782118",
+                "data": [
+                    { "type": "readall", "roles": [ { "rolName": "~Todos los Usuarios" }, { "rolName": "Colaborador" } ] },
+                    { "type": "updateall", "roles": [ { "rolName": "Marketing" } ] },
+                    { "type": "createown", "roles": [ { "rolName": "~Todos los Usuarios" } ] },
+                    { "type": "readown", "roles": [ { "rolName": "~Todos los Usuarios" } ] }
+                ]
+            }
+        ]
+    }
+}
