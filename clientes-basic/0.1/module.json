@@ -3,7 +3,7 @@
     "name": "Gestión de clientes (básico)",
     "version": "0.1",
     "description": "Para gestionar los datos básicos de mis clientes",
-    "onlyvalidate": true,
+    "onlyvalidate": false,
     "modules": {
         "roles": [
             {
