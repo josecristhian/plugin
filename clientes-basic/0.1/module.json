@@ -1,0 +1,46 @@
+{
+    "id": "clientes-basic",
+    "name": "Gestión de clientes (básico)",
+    "version": "0.1",
+    "description": "Para gestionar los datos básicos de mis clientes",
+    "onlyvalidate": true,
+    "modules": {
+        "roles": [
+            {
+                "validate": true,
+                "execute": true,
+                "action": "create-reuse",
+                "data": {
+                    "name": "Analista de Negocio",
+                    "description": "Rol para los analistas de negocio que gestionan el sistema."
+                }
+            }
+        ],
+        "processCategories": [],
+        "processes": [],
+        "processForms": [],
+        "entities": [
+            {
+                "validate": true,
+                "execute": true,
+                "action": "create-reuse",
+                "data": {
+                    "name": "cliente",
+                    "entity": "files/entity1.json"
+                }
+            }
+        ],
+        "formAcces": [
+            {
+                "validate": true,
+                "execute": true,
+                "action": "update",
+                "formName": "cliente",
+                "data": [
+                    { "type": "readall", "roles": [ { "rolName": "~Todos los Usuarios" }, { "rolName": "Colaborador" } ] },
+                    { "type": "updateall", "roles": [ { "rolName": "Analista de Negocio" } ] }
+                ]
+            }
+        ]
+    }
+}
