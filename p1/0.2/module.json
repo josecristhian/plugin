@@ -94,12 +94,12 @@
                 }
             }
         ],
-        "formAcces": [
+        "access": [
             {
                 "validate": true,
                 "execute": true,
                 "action": "update",
-                "formName": "meinvento1",
+                "form": "meinvento1",
                 "data": [
                     { "type": "readall", "roles": [ { "rolName": "~Todos los Usuarios" }, { "rolName": "Colaborador" } ] },
                     { "type": "updateall", "roles": [ { "rolName": "Marketing" } ] },
@@ -111,7 +111,7 @@
                 "validate": true,
                 "execute": true,
                 "action": "update",
-                "formName": "5eed35beb04c12001ac7d3861603733782118",
+                "form": "5eed35beb04c12001ac7d3861603733782118",
                 "data": [
                     { "type": "readall", "roles": [ { "rolName": "~Todos los Usuarios" }, { "rolName": "Colaborador" } ] },
                     { "type": "updateall", "roles": [ { "rolName": "Marketing" } ] },

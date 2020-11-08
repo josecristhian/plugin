@@ -16,12 +16,12 @@
                 }
             }
         ],
-        "formAcces": [
+        "access": [
             {
                 "validate": true,
                 "execute": true,
                 "action": "update",
-                "formName": "cliente",
+                "form": "cliente",
                 "data": [
                     { "type": "readall", "roles": [ { "rolName": "~Todos los Usuarios" }, { "rolName": "Colaborador" } ] },
                     { "type": "updateall", "roles": [ { "rolName": "Analista de Negocio" } ] }
