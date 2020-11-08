@@ -5,20 +5,6 @@
     "description": "Para gestionar los datos básicos de mis clientes",
     "onlyvalidate": false,
     "modules": {
-        "roles": [
-            {
-                "validate": true,
-                "execute": true,
-                "action": "create-reuse",
-                "data": {
-                    "name": "Analista de Negocio",
-                    "description": "Rol para los analistas de negocio que gestionan el sistema."
-                }
-            }
-        ],
-        "processCategories": [],
-        "processes": [],
-        "processForms": [],
         "entities": [
             {
                 "validate": true,
