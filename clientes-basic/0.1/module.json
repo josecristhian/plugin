@@ -9,7 +9,7 @@
             {
                 "validate": true,
                 "execute": true,
-                "action": "create-reuse",
+                "action": "install",
                 "data": {
                     "name": "cliente",
                     "entity": "files/entity1.json"
@@ -20,7 +20,7 @@
             {
                 "validate": true,
                 "execute": true,
-                "action": "update",
+                "action": "install",
                 "form": "cliente",
                 "data": [
                     { "type": "readall", "roles": [ { "rolName": "~Todos los Usuarios" }, { "rolName": "Colaborador" } ] },
