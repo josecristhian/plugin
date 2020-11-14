@@ -9,7 +9,7 @@
             {
                 "validate": true,
                 "execute": true,
-                "action": "create-reuse",
+                "action": "install",
                 "data": {
                     "name": "Marketing",
                     "description": "Rol de pruebas"
@@ -18,7 +18,7 @@
             {
                 "validate": true,
                 "execute": true,
-                "action": "create-reuse",
+                "action": "install",
                 "data": {
                     "name": "Contabilidad",
                     "description": "Rol de Testing"
@@ -29,7 +29,7 @@
             {
                 "validate": true,
                 "execute": true,
-                "action": "create-reuse",
+                "action": "install",
                 "data": {
                     "nombre": "Finanzas",
                     "icono": "fa-firefox",
@@ -41,7 +41,7 @@
             {
                 "validate": true,
                 "execute": true,
-                "action": "create-reuse",
+                "action": "install",
                 "data": {
                     "nombre": "Proceso desde paquete",
                     "categoria": "Finanzas",
@@ -63,7 +63,7 @@
             {
                 "validate": true,
                 "execute": true,
-                "action": "create",
+                "action": "install",
                 "data": {
                     "tipo": "Inicio",
                     "name": "meinvento1111",
@@ -74,7 +74,7 @@
             {
                 "validate": true,
                 "execute": true,
-                "action": "create",
+                "action": "install",
                 "data": {
                     "tipo": "Tarea",
                     "name": "meinvento3333",
@@ -87,7 +87,7 @@
             {
                 "validate": true,
                 "execute": true,
-                "action": "create-reuse",
+                "action": "install",
                 "data": {
                     "name": "meinventoentidad1",
                     "entity": "files/entity1.json"
@@ -98,7 +98,7 @@
             {
                 "validate": true,
                 "execute": true,
-                "action": "update",
+                "action": "install",
                 "form": "meinvento1",
                 "data": [
                     { "type": "readall", "roles": [ { "rolName": "~Todos los Usuarios" }, { "rolName": "Colaborador" } ] },
@@ -110,7 +110,7 @@
             {
                 "validate": true,
                 "execute": true,
-                "action": "update",
+                "action": "install",
                 "form": "5eed35beb04c12001ac7d3861603733782118",
                 "data": [
                     { "type": "readall", "roles": [ { "rolName": "~Todos los Usuarios" }, { "rolName": "Colaborador" } ] },
