@@ -3,7 +3,7 @@
     "name": "Paquete para gestionar la organizacion",
     "version": "0.1",
     "description": "Plugin P1",
-    "onlyvalidate": true,
+    "onlyvalidate": false,
     "modules": {
         "roles": [
             {
