@@ -4,12 +4,12 @@
             "nombre": "Clientes",
             "orden": 11,
             "nivel": "item",
-            "itemIcon": "fab fa-sketch",
+            "itemIcon": "fa fa-cubes",
             "color": "",
             "gruposFilterRole": [ { "form": "grupos", "filters": [ { "key": "nombre", "value": "Analista de Negocio" } ] } ],
             "visible": true,
-            "cabecera": { "form": "system-frontend-menu", "filters": [ { "key": "nombre", "value": "Configuración" } ] },
-            "routeFixed": "/apps",
+            "cabecera": { "form": "system-frontend-menu", "filters": [ { "key": "nombre", "value": "Procesos" } ] },
+            "routeFixed": "/cliente",
             "parametros": ""
         }
     }
