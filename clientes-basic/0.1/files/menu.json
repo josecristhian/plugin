@@ -8,7 +8,7 @@
             "color": "",
             "gruposFilterRole": [ { "form": "grupos", "filters": [ { "param": "data.nombre=Analista de Negocio" }, { "param": "data.nombre=Colaborador" } ] } ],
             "visible": true,
-            "cabecera": { "form": "system-frontend-menu", "filters": [ { "param": "data.nombre=Procesos" } ] },
+            "cabecera": { "form": "system-frontend-menu", "filters": [ { "param": "data.nombre=Procesos&data.nivel=cabecera" } ] },
             "routeFixed": "/cliente",
             "parametros": ""
         }
