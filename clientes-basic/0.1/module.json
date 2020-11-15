@@ -42,7 +42,7 @@
                 "execute": true,
                 "action": "install",
                 "keys": ["nombre"],
-                "replacements:": [ { "type": "object", "path": "gruposFilterRole" }, { "type": "item", "path": "cabecera" } ],
+                "replacements": [ { "type": "object", "path": "gruposFilterRole" }, { "type": "item", "path": "cabecera" } ],
                 "form": "system-frontend-menu",
                 "data": "files/menu.json"
             }
