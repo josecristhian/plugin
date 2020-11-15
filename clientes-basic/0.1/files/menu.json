@@ -6,9 +6,9 @@
             "nivel": "item",
             "itemIcon": "fa fa-cubes",
             "color": "",
-            "gruposFilterRole": [ { "form": "grupos", "filters": [ { "key": "nombre", "value": "Analista de Negocio" }, { "key": "nombre", "value": "Colaborador" } ] } ],
+            "gruposFilterRole": [ { "form": "grupos", "filters": [ { "param": "data.nombre=Analista de Negocio" }, { "param": "data.nombre=Colaborador" } ] } ],
             "visible": true,
-            "cabecera": { "form": "system-frontend-menu", "filters": [ { "key": "nombre", "value": "Procesos" } ] },
+            "cabecera": { "form": "system-frontend-menu", "filters": [ { "param": "data.nombre=Procesos" } ] },
             "routeFixed": "/cliente",
             "parametros": ""
         }
