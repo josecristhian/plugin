@@ -8,7 +8,7 @@
             "color": "",
             "gruposFilterRole": [ { "form": "grupos", "filters": [ { "key": "nombre", "value": "Analista de Negocio" }, { "key": "nombre", "value": "Colaborador" } ] } ],
             "visible": true,
-            "cabecera": { "form": "system-frontend-menu", "filters": [ { "key": "nombre", "value": "Procesosxxxxx" } ] },
+            "cabecera": { "form": "system-frontend-menu", "filters": [ { "key": "nombre", "value": "Procesos" } ] },
             "routeFixed": "/cliente",
             "parametros": ""
         }
