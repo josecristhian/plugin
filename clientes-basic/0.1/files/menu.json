@@ -6,9 +6,9 @@
             "nivel": "item",
             "itemIcon": "fab fa-sketch",
             "color": "",
-            "gruposFilterRole": [ { "form": "grupos", "filters": [ { "key": "data.nombre", "value": "Analista de Negocio" } ] } ],
+            "gruposFilterRole": [ { "form": "grupos", "filters": [ { "key": "nombre", "value": "Analista de Negocio" } ] } ],
             "visible": true,
-            "cabecera": { "form": "system-frontend-menu", "filters": [ { "key": "data.nombre", "value": "Configuración" } ] },
+            "cabecera": { "form": "system-frontend-menu", "filters": [ { "key": "nombre", "value": "Configuración" } ] },
             "routeFixed": "/apps",
             "parametros": ""
         }
