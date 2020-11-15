@@ -1,54 +1,14 @@
 [
     {
-        "_id": "5fb07591eec15b001b2774a2",
-        "owner": "5cf3fa5ad92fb2001299bd9b",
-        "deleted": null,
-        "roles": [],
         "data": {
             "nombre": "padilla",
             "textArea": "chau"
-        },
-        "access": [],
-        "metadata": {
-            "timezone": "America/La_Paz",
-            "offset": -240,
-            "origin": "http://default.bpmsio.com:4200",
-            "referrer": "http://default.bpmsio.com:4200/mgtm",
-            "browserName": "Netscape",
-            "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.51",
-            "pathName": "/mgtm/cliente/new",
-            "onLine": true
-        },
-        "form": "5fb06de6eec15b001b277496",
-        "externalIds": [],
-        "created": "2020-11-15T00:25:53.711Z",
-        "modified": "2020-11-15T00:25:53.712Z",
-        "__v": 0
+        }
     },
     {
-        "_id": "5fb0758ceec15b001b2774a0",
-        "owner": "5cf3fa5ad92fb2001299bd9b",
-        "deleted": null,
-        "roles": [],
         "data": {
             "nombre": "jose",
             "textArea": "hola"
-        },
-        "access": [],
-        "metadata": {
-            "timezone": "America/La_Paz",
-            "offset": -240,
-            "origin": "http://default.bpmsio.com:4200",
-            "referrer": "http://default.bpmsio.com:4200/mgtm",
-            "browserName": "Netscape",
-            "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36 Edg/86.0.622.51",
-            "pathName": "/mgtm/cliente/new",
-            "onLine": true
-        },
-        "form": "5fb06de6eec15b001b277496",
-        "externalIds": [],
-        "created": "2020-11-15T00:25:48.638Z",
-        "modified": "2020-11-15T00:25:48.639Z",
-        "__v": 0
+        }
     }
 ]

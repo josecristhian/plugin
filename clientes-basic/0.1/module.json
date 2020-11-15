@@ -33,6 +33,7 @@
                 "validate": true,
                 "execute": true,
                 "action": "install",
+                "keys": ["nombre"],
                 "form": "cliente",
                 "data": "files/data.json"
             }
