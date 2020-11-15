@@ -27,6 +27,15 @@
                     { "type": "updateall", "roles": [ { "rolName": "Analista de Negocio" } ] }
                 ]
             }
+        ],
+        "data": [
+            {
+                "validate": true,
+                "execute": true,
+                "action": "install",
+                "form": "cliente",
+                "data": "files/data.json"
+            }
         ]
     }
 }
