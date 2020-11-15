@@ -1,0 +1,16 @@
+[
+    {
+        "data": {
+            "nombre": "Clientes",
+            "orden": 11,
+            "nivel": "item",
+            "itemIcon": "fab fa-sketch",
+            "color": "",
+            "gruposFilterRole": [ { "form": "grupos", "filters": [ { "key": "data.nombre", "value": "Analista de Negocio" } ] } ],
+            "visible": true,
+            "cabecera": { "form": "system-frontend-menu", "filters": [ { "key": "data.nombre", "value": "Configuración" } ] },
+            "routeFixed": "/apps",
+            "parametros": ""
+        }
+    }
+]
