@@ -33,7 +33,7 @@
                 "validate": true,
                 "execute": true,
                 "action": "install",
-                "keys": ["nombre"],
+                "keysToMatchWhenUpdate": ["nombre"],
                 "form": "cliente",
                 "data": "files/data.json"
             },
@@ -41,7 +41,7 @@
                 "validate": true,
                 "execute": true,
                 "action": "install",
-                "keys": ["nombre"],
+                "keysToMatchWhenUpdate": ["nombre"],
                 "replacements": [ { "type": "object", "path": "['data', 'gruposFilterRole']" }, { "type": "item", "path": "['data', 'cabecera']" } ],
                 "form": "system-frontend-menu",
                 "data": "files/menu.json"
