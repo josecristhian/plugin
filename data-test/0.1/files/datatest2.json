@@ -1,0 +1,9 @@
+[
+    {
+        "data": {
+            "key": "key4",
+            "title": "Key 4",
+            "gruposFilterRole": [ { "form": "grupos", "filters": [ { "param": "data.nombre=Analista de Negocio" }, { "param": "data.nombre=Colaborador" } ] } ]
+        }
+    }
+]

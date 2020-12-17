@@ -1,0 +1,20 @@
+[
+    {
+        "data": {
+            "key": "key1",
+            "title": "Key 1"
+        }
+    },
+    {
+        "data": {
+            "key": "key2",
+            "title": "Key 2"
+        }
+    },
+    {
+        "data": {
+            "key": "key3",
+            "title": "Key 4"
+        }
+    }
+]

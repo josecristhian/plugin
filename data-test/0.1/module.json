@@ -1,0 +1,28 @@
+{
+    "id": "data-test",
+    "name": "Insertar Datos de Prueba General",
+    "version": "0.1",
+    "description": "Insertar Datos de Prueba General",
+    "onlyvalidate": false,
+    "modules": {
+        "data": [
+            {
+                "validate": true,
+                "execute": true,
+                "action": "install",
+                "keysToMatchWhenUpdate": ["key"],
+                "form": "datatest",
+                "data": "files/datatest.json"
+            },
+            {
+                "validate": true,
+                "execute": true,
+                "action": "install",
+                "keysToMatchWhenUpdate": ["nombre"],
+                "replacements": [ { "type": "object", "path": "['data', 'gruposFilterRole']" } ],
+                "form": "datatest",
+                "data": "files/datatest2.json"
+            }
+        ]
+    }
+}
