@@ -18,7 +18,7 @@
                 "validate": true,
                 "execute": true,
                 "action": "install",
-                "keysToMatchWhenUpdate": ["nombre"],
+                "keysToMatchWhenUpdate": ["key"],
                 "replacements": [ { "type": "object", "path": "['data', 'gruposFilterRole']" } ],
                 "form": "datatest",
                 "data": "files/datatest2.json"
