@@ -5,12 +5,5 @@
             "title": "Key 4",
             "gruposFilterRole": [ { "form": "grupos", "filters": [ { "param": "data.nombre=Analista de Negocio" }, { "param": "data.nombre=Colaborador" } ] } ]
         }
-    },
-    {
-        "data": {
-            "key": "key5",
-            "title": "Key 5",
-            "gruposFilterRole": [ { "form": "grupos2", "filters": [ { "param": "data.nombre=Analista de Negocio" }, { "param": "data.nombre=Colaborador" } ] } ]
-        }
     }
 ]
