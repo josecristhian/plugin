@@ -12,6 +12,7 @@
                 "action": "install",
                 "data": {
                     "name": "cliente",
+                    "description": "Datos del Cliente",
                     "entity": "files/entity1.json"
                 }
             }

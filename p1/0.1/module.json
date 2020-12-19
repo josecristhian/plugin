@@ -90,6 +90,7 @@
                 "action": "install",
                 "data": {
                     "name": "meinventoentidad1",
+                    "description": "Datos de Proveedores",
                     "entity": "files/entity1.json"
                 }
             }
