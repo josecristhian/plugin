@@ -11,7 +11,6 @@
                 "execute": true,
                 "action": "install",
                 "keysToMatchWhenUpdate": ["key"],
-                "doNotShowInInfo": true,
                 "form": "datatest",
                 "data": "files/datatest.json"
             },
