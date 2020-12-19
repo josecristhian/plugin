@@ -19,6 +19,7 @@
                 "validate": true,
                 "execute": true,
                 "action": "install",
+                "doNotShowInInfo": true,
                 "data": {
                     "name": "Contabilidad",
                     "description": "Rol de Testing"
