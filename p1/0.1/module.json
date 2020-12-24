@@ -128,8 +128,8 @@
                 "execute": true,
                 "action": "install",
                 "data": {
-                    "id": "ID",
-                    "nombre": "Regla de Negocio",
+                    "id": "XXXTEST",
+                    "nombre": "XXXTEST",
                     "descripcion": "Pruebas de reglas de negocio",
                     "habilitado": true,
                     "xml": "files/rule1.dmn"
