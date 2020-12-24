@@ -132,7 +132,7 @@
                     "nombre": "Regla de Negocio",
                     "descripcion": "Pruebas de reglas de negocio",
                     "habilitado": true,
-                    "xml": "files/dmn1.bpmn"
+                    "xml": "files/rule1.dmn"
                 }
             }
         ]
